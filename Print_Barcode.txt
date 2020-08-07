@@ -1,0 +1,7 @@
+CREATE PROCEDURE  Print_Barcode(@W nvarchar(3000))
+ AS
+begin
+	set nocount on
+	EXEC('SELECT k.code,k.[name],k.saleprice FROM kala k,storage s WHERE k.codekala=s.code AND s.Alarm=1 AND ' + @W + ' ORDER BY k.code' )
+end
+GO

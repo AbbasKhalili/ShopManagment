@@ -1,0 +1,24 @@
+CREATE TABLE [_tmpBackSaleFactor] (
+	[num] [int] NOT NULL ,
+	[date] [nvarchar] (10) COLLATE SQL_Latin1_General_CP1256_CI_AS NOT NULL ,
+	[name] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1256_CI_AS NOT NULL ,
+	[SumKol] [float] NULL ,
+	[discount] [float] NULL ,
+	[DocNO] [int] NOT NULL ,
+	[no] [int] NOT NULL ,
+	[storageno] [int] NOT NULL ,
+	[code] [int] NOT NULL ,
+	[count] [float] NOT NULL ,
+	[price] [float] NOT NULL ,
+	[tax] [int] NULL ,
+	[namekala] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1256_CI_AS NOT NULL ,
+	[unitname] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1256_CI_AS NULL ,
+	[Disc] [float] NULL ,
+	[CodeKala] [nvarchar] (30) COLLATE SQL_Latin1_General_CP1256_CI_AS NOT NULL ,
+	[Type] [varchar] (17) COLLATE SQL_Latin1_General_CP1256_CI_AS NOT NULL ,
+	[Total] [int] NOT NULL ,
+	[state] [varchar] (8) COLLATE SQL_Latin1_General_CP1256_CI_AS NOT NULL 
+) ON [PRIMARY]
+GO
+
+

@@ -1,0 +1,21 @@
+object SaleFromSellerDate2Date: TSaleFromSellerDate2Date
+  Left = 223
+  Top = 114
+  BiDiMode = bdRightToLeft
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsToolWindow
+  ClientHeight = 141
+  ClientWidth = 396
+  Color = clBtnFace
+  Font.Charset = ARABIC_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  ParentBiDiMode = False
+  Position = poOwnerFormCenter
+  PixelsPerInch = 96
+  TextHeight = 16
+end

@@ -1,0 +1,25 @@
+CREATE PROCEDURE  Print_InvoiceBS(@NumB Nvarchar(10),@NumS Nvarchar(10))
+ AS
+begin
+	set nocount on
+	Declare @B int,@S int
+	Set @B=0
+	Set @S=0
+	Drop Table _tmpBackSaleFactor
+	Select i.num,date,b.name,sum(price*d.[count]) SumKol,discount,i.DocNO,d.no,d.storageno,d.code,d.count,d.price,d.tax,k.name namekala,u.unitname,d.Disc,k.code CodeKala,'ò«·«Â«Ì »—ê‘ Ì' Type,0 Total,'»” «‰ò«—' state
+	into _tmpBackSaleFactor
+	from  InvoiceBack i , InvoiceBackDetials d,Customer b,kala k,units u
+	where d.num = i.num and i.buyer=b.code and d.code=k.codekala and k.unit=u.code And i.num=@NumB
+	group by i.date,i.num,i.discount,i.DocNO,b.name,d.no,d.storageno,d.code,d.count,d.price,d.tax,k.name,u.unitname,d.Disc,k.code
+	UNION
+	select i.num,date,b.name,sum(price*d.[count]) SumKol,discount,i.DocNO,d.no,d.storageno,d.code,d.count,d.price,d.tax,k.name namekala,u.unitname,d.Disc,k.code CodeKala,'ò«·«Â«Ì ÃœÌœ »—œÂ' Type,0 Total,'»” «‰ò«—' state
+	from  InvoiceSell i , InvoiceSellDetials d,Customer b,kala k,units u
+	where d.num = i.num and i.buyer=b.code and d.code=k.codekala and k.unit=u.code And i.num=@NumS
+	group by i.date,i.num,i.discount,i.DocNO,b.name,d.no,d.storageno,d.code,d.count,d.price,d.tax,k.name,u.unitname,d.Disc,k.code
+	select @B=Sum(sumkol) from _tmpBackSaleFactor where type='ò«·«Â«Ì »—ê‘ Ì'
+	select @S=Sum(sumkol) from _tmpBackSaleFactor where type='ò«·«Â«Ì ÃœÌœ »—œÂ'		
+	update _tmpBackSaleFactor set total=ABS(@S - @B)
+	If (@S - @B) <0    update _tmpBackSaleFactor set state='»œÂò«—'
+	Select * from _tmpBackSaleFactor
+end
+GO

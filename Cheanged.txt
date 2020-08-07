@@ -1,0 +1,60 @@
+CREATE PROCEDURE  Report_CycleKala(@Kalacode int,@D1 nvarchar(10),@D2 nvarchar(10))
+ AS
+begin
+	set nocount on
+	Select '000' num,'---' [date],'ÇäÈÇÑ Çæáíå' [name],k.saleprice*CurrentExists SumKol,k.code kalacode,CurrentExists [count],k.saleprice price,k.[name] namekala,'ãæÌæÏí Çæáíå' Transac
+	from Storage s ,kala k
+	where k.codekala=s.code and s.groupcode=k.groupcode and k.codekala=@KalaCode
+	union
+	select i.code num,[date],b.[name],sum(d.price*d.count) SumKol,k.code kalacode,d.[count],d.price,k.[name] namekala,'ÎÑíÏ' Transac
+	from  InvoiceBuy i , InvoiceBuyDetials d , StorageL3 b ,kala k
+	where d.num = i.num and i.seller=b.SN3 and d.code=k.codekala and d.code=@KalaCode and ([date]>=@D1 and [Date]<=@D2)
+	group by i.code,i.[date],b.[name],k.code,d.[count],d.price,k.[name]
+	union
+	select i.num,[date],b.[name],sum(d.price*d.count) SumKol,k.code kalacode,d.[count]*(-1),d.price,k.[name] namekala,'ÝÑæÔ' Transac
+	from  Invoicesell i , InvoicesellDetials d , Customer b ,kala k
+	where d.num = i.num and i.buyer=b.code and d.code=k.codekala and d.code=@KalaCode and ([date]>=@D1 and [Date]<=@D2)
+	group by i.num,i.[date],b.[name],k.code,d.[count],d.price,k.[name]
+	union
+	select i.num,[date],b.[name],sum(d.price*d.count) SumKol,k.code kalacode,d.[count],d.price,k.[name] namekala,'ÈÑÔÊ ÇÒ ÝÑæÔ' Transac
+	from  InvoiceBack i , InvoiceBackDetials d , Customer b ,kala k
+	where d.num = i.num and i.buyer=b.code and d.code=k.codekala and d.code=@KalaCode and ([date]>=@D1 and [Date]<=@D2)
+	group by i.num,i.[date],b.[name],k.code,d.[count],d.price,k.[name]
+	union
+	select i.num,[date],b.[name],sum(d.price*d.count) SumKol,k.code kalacode,d.[count]*(-1),d.price,k.[name] namekala,'ÈÑÔÊ ÇÒ ÇäÈÇÑ' Transac
+	from  InvoiceBackStorage i , InvoiceBackStorageDetials d , StorageL3 b ,kala k
+	where d.num = i.num and i.seller=b.SN3 and d.code=k.codekala and d.code=@KalaCode and ([date]>=@D1 and [Date]<=@D2)
+	group by i.num,i.[date],b.[name],k.code,d.[count],d.price,k.[name]
+	order by i.[date]
+end
+GO
+
+
+
+
+CREATE PROCEDURE  Fill_AnbarGardany
+ AS
+begin
+	set nocount on
+	insert Anbargardany(StorageNO,codekala,existsCount,Counter)
+	select S.StorageNO,S.code Codekala,0 existsCount,0 Counter 
+	from storage s
+	inner join StorageL3 S3 on s.storageno=s3.SN3
+	inner join StorageL2 S2 on S2.SN2=S3.SN2
+	where NOT Exists(select * from Anbargardany where StorageNO=S.StorageNO and codekala=S.code)
+end
+GO
+
+
+
+CREATE PROCEDURE  Report_AnbarGardany
+ AS
+begin
+	set nocount on
+	select A.StorageNO,A.Codekala Kcode,A.Counter,A.existsCount,s.code,u.unitname,k.code CodeKala,k.[name] NameKala,k.saleprice,k.buyprice,S2.SN2,S2.[name] S2Name,S3.SN3,S3.[name] S3Name
+	from anbargardany A, storage S,Kala K,Units u,StorageL3 S3,StorageL2 S2,StorageL1 S1
+	where A.Codekala=s.code and A.StorageNO=s.storageNO and s.code=k.codekala And u.code=k.unit And S3.SN3=s.storageNO And S2.SN2=S3.SN2 And S1.SN1=S2.SN1 and Counter<>existsCount
+	Group BY S2.SN2,S2.[name],S3.SN3,S3.[name],A.StorageNO,A.Codekala,A.Counter,A.existsCount,s.code,u.unitname,k.code,k.[name],k.saleprice,k.buyprice
+end
+GO
+

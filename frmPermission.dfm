@@ -1,0 +1,330 @@
+object Permission: TPermission
+  Left = 531
+  Top = 115
+  BiDiMode = bdRightToLeft
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsToolWindow
+  Caption = #1578#1593#1610#1610#1606' '#1587#1591#1608#1581' '#1583#1587#1578#1585#1587#1610' '#1705#1575#1585#1576#1585#1575#1606
+  ClientHeight = 513
+  ClientWidth = 730
+  Color = clBtnFace
+  Font.Charset = ARABIC_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  ParentBiDiMode = False
+  Position = poOwnerFormCenter
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 16
+  object cxImage1: TcxImage
+    Left = 10
+    Top = 9
+    TabStop = False
+    Properties.PopupMenuLayout.MenuItems = []
+    Properties.ReadOnly = True
+    Properties.ShowFocusRect = False
+    Style.LookAndFeel.NativeStyle = False
+    StyleDisabled.LookAndFeel.NativeStyle = False
+    StyleFocused.LookAndFeel.NativeStyle = False
+    StyleHot.LookAndFeel.NativeStyle = False
+    TabOrder = 0
+    Height = 40
+    Width = 711
+  end
+  object cxComboBox3: TcxComboBox
+    Left = 384
+    Top = 18
+    Properties.Alignment.Horz = taRightJustify
+    Properties.DropDownListStyle = lsFixedList
+    Properties.PopupAlignment = taRightJustify
+    Properties.OnEditValueChanged = cxComboBox3PropertiesEditValueChanged
+    Style.LookAndFeel.NativeStyle = False
+    StyleDisabled.LookAndFeel.NativeStyle = False
+    StyleFocused.Color = 13434879
+    StyleFocused.LookAndFeel.NativeStyle = False
+    StyleFocused.TextColor = 10116878
+    StyleHot.LookAndFeel.NativeStyle = False
+    TabOrder = 1
+    Width = 170
+  end
+  object cxLabel1: TcxLabel
+    Left = 560
+    Top = 19
+    Caption = #1705#1575#1585#1576#1585
+    Transparent = True
+  end
+  object cxButton2: TcxButton
+    Left = 243
+    Top = 15
+    Width = 90
+    Height = 29
+    Caption = #1578#1575#1574#1610#1583
+    Default = True
+    TabOrder = 3
+    OnClick = cxButton2Click
+    LookAndFeel.NativeStyle = False
+  end
+  object cxButton1: TcxButton
+    Left = 148
+    Top = 15
+    Width = 90
+    Height = 29
+    Cancel = True
+    Caption = #1575#1606#1589#1585#1575#1601
+    TabOrder = 4
+    OnClick = cxButton1Click
+    LookAndFeel.NativeStyle = False
+  end
+  object cxComboBox1: TcxComboBox
+    Left = 363
+    Top = 18
+    TabStop = False
+    Properties.Alignment.Horz = taRightJustify
+    Properties.DropDownListStyle = lsFixedList
+    Properties.PopupAlignment = taRightJustify
+    Properties.OnEditValueChanged = cxComboBox1PropertiesEditValueChanged
+    Style.LookAndFeel.NativeStyle = False
+    StyleDisabled.LookAndFeel.NativeStyle = False
+    StyleFocused.Color = 13434879
+    StyleFocused.LookAndFeel.NativeStyle = False
+    StyleFocused.TextColor = 10116878
+    StyleHot.LookAndFeel.NativeStyle = False
+    TabOrder = 5
+    Visible = False
+    Width = 39
+  end
+  object Lst1: TcxTreeList
+    Left = 10
+    Top = 58
+    Width = 447
+    Height = 445
+    Bands = <
+      item
+      end>
+    BufferedPaint = False
+    LookAndFeel.NativeStyle = False
+    OptionsBehavior.WaitForExpandNodeTime = 0
+    OptionsData.Deleting = False
+    OptionsView.GridLines = tlglBoth
+    OptionsView.PaintStyle = tlpsCategorized
+    OptionsView.TreeLineStyle = tllsNone
+    TabOrder = 6
+    Data = {
+      02000400230400000F00000044617461436F6E74726F6C6C6572310500000012
+      000000546378537472696E6756616C75655479706513000000546378426F6F6C
+      65616E56616C75655479706513000000546378426F6F6C65616E56616C756554
+      79706513000000546378426F6F6C65616E56616C756554797065130000005463
+      78426F6F6C65616E56616C7565547970651400000000000D000000C7D8E1C7DA
+      C7CA20C7E6E1EDE50101010100000C000000C7D8E1C7DAC7CA20CCC7D1ED0101
+      0101000005000000C7E4C8C7D1000000000000000000000A000000E3DAD1DDED
+      2098C7E1C7000000000000000000000D000000C7D8E1C7DAC7CAED20E3C7E1ED
+      0101010100000B000000DDC798CAE6D120DDD1E6D40000000000000000000014
+      000000DDC798CAE6D120C8D190D4CA20C7D220DDD1E6D4000000000000000000
+      000B000000DDC798CAE6D120CED1EDCF0000000000000000000015000000DDC7
+      98CAE6D120C8D190D4CA20C7D220C7E4C8C7D1000000000000000000000A0000
+      008D9820CFD1EDC7DDCAED000000000000000000000A0000008D982081D1CFC7
+      CECAED000000000000000000000B000000CFD1EDC7DDCA20E4DECFED00000000
+      0000000000000B00000081D1CFC7CECA20E4DECFED0000000000000000000005
+      000000E5D2EDE4E5000000000000000000000D000000E3DAD1DDED20C8C7E498
+      20E5C7000000000000000000000D000000E3DAD1DDED20CDD3C7C820E5C70000
+      000000000000000007000000DDD1E6D490C7E5000000000000000000000A0000
+      00D3D8E6CD20C7E4C8C7D1000000000000000000000E00000090D1E6E520C8E4
+      CFED2098C7E1C70000000000000000000006000000C8D1CFC7D4CA0000000000
+      000000030000000000000004000000070000000000000000000000FFFFFFFF02
+      000000100000000000000000000000FFFFFFFF03000000100000000000000000
+      000000FFFFFFFF0E000000100000000000000000000000FFFFFFFF0F00000010
+      0000000000000000000000FFFFFFFF10000000100000000000000000000000FF
+      FFFFFF11000000100000000000000000000000FFFFFFFF120000001000000000
+      00000000000000FFFFFFFF0100000004000000040000000000000000000000FF
+      FFFFFF05000000100000000000000000000000FFFFFFFF060000001000000000
+      00000000000000FFFFFFFF07000000100000000000000000000000FFFFFFFF08
+      000000100000000000000000000000FFFFFFFF04000000040000000600000000
+      00000000000000FFFFFFFF09000000100000000000000000000000FFFFFFFF0A
+      000000100000000000000000000000FFFFFFFF0B000000100000000000000000
+      000000FFFFFFFF0C000000100000000000000000000000FFFFFFFF0D00000010
+      0000000000000000000000FFFFFFFF13000000100000000000000000000000FF
+      FFFFFF}
+    object cxTreeList1cxTreeListColumn1: TcxTreeListColumn
+      Caption.AlignHorz = taCenter
+      Caption.Text = #1606#1575#1605' '#1602#1587#1605#1578
+      DataBinding.ValueType = 'String'
+      Options.CellEndEllipsis = False
+      Options.Sizing = False
+      Options.Customizing = False
+      Options.Editing = False
+      Options.Focusing = False
+      Options.IncSearch = False
+      Options.Moving = False
+      Options.Sorting = False
+      Width = 164
+      Position.ColIndex = 0
+      Position.RowIndex = 0
+      Position.BandIndex = 0
+    end
+    object cxTreeList1cxTreeListColumn2: TcxTreeListColumn
+      Caption.AlignHorz = taCenter
+      Caption.Text = #1583#1587#1578#1610#1575#1576#1610
+      DataBinding.ValueType = 'Boolean'
+      Options.CellEndEllipsis = False
+      Options.Sizing = False
+      Options.Customizing = False
+      Options.IncSearch = False
+      Options.Moving = False
+      Options.Sorting = False
+      Width = 70
+      Position.ColIndex = 1
+      Position.RowIndex = 0
+      Position.BandIndex = 0
+    end
+    object cxTreeList1cxTreeListColumn3: TcxTreeListColumn
+      Caption.AlignHorz = taCenter
+      Caption.Text = #1584#1582#1610#1585#1607
+      DataBinding.ValueType = 'Boolean'
+      Options.CellEndEllipsis = False
+      Options.Sizing = False
+      Options.Customizing = False
+      Options.IncSearch = False
+      Options.Moving = False
+      Options.Sorting = False
+      Width = 70
+      Position.ColIndex = 2
+      Position.RowIndex = 0
+      Position.BandIndex = 0
+    end
+    object cxTreeList1cxTreeListColumn4: TcxTreeListColumn
+      Caption.AlignHorz = taCenter
+      Caption.Text = #1575#1589#1604#1575#1581
+      DataBinding.ValueType = 'Boolean'
+      Options.CellEndEllipsis = False
+      Options.Sizing = False
+      Options.Hidden = True
+      Options.Customizing = False
+      Options.IncSearch = False
+      Options.Moving = False
+      Options.Sorting = False
+      Width = 70
+      Position.ColIndex = 3
+      Position.RowIndex = 0
+      Position.BandIndex = 0
+    end
+    object cxTreeList1cxTreeListColumn5: TcxTreeListColumn
+      Caption.AlignHorz = taCenter
+      Caption.Text = #1581#1584#1601
+      DataBinding.ValueType = 'Boolean'
+      Options.CellEndEllipsis = False
+      Options.Sizing = False
+      Options.Customizing = False
+      Options.IncSearch = False
+      Options.Moving = False
+      Options.Sorting = False
+      Width = 70
+      Position.ColIndex = 4
+      Position.RowIndex = 0
+      Position.BandIndex = 0
+    end
+  end
+  object Lst2: TcxTreeList
+    Left = 466
+    Top = 58
+    Width = 254
+    Height = 445
+    Bands = <
+      item
+      end>
+    BufferedPaint = False
+    LookAndFeel.NativeStyle = False
+    OptionsBehavior.WaitForExpandNodeTime = 0
+    OptionsData.Deleting = False
+    OptionsView.GridLines = tlglBoth
+    OptionsView.PaintStyle = tlpsCategorized
+    OptionsView.TreeLineStyle = tllsNone
+    TabOrder = 7
+    Data = {
+      020004004A0600000F00000044617461436F6E74726F6C6C6572310200000012
+      000000546378537472696E6756616C75655479706513000000546378426F6F6C
+      65616E56616C7565547970652700000000000C000000CFED90D120DED3E3CA20
+      E5C70100000C000000C7E4C8C7D12090D1CFC7E4ED000000000B000000C7E4CA
+      DEC7E12098C7E1C70000000009000000C7E4CADEC7E1208D98000000000A0000
+      00C7E4CADEC7E120E6CCE50000000008000000CAD1C798E4D4E5C7000000000D
+      00000090D2C7D1D4C7CA20D3EDD3CAE30000000009000000D5E6D1CA20CDD3C7
+      C80000000008000000C8E5D1E520E6D1ED0000000004000000CED1EDCF000000
+      0004000000DDD1E6D40000000007000000C7E4C8C7D1E5C70000000006000000
+      98C7E1C7E5C70000000008000000E5D2EDE4E520E5C70000000015000000DDC7
+      98CAE6D120C8D190D4CA20C7D220C7E4C8C7D1000000000B000000DDC798CAE6
+      D120CED1EDCF0000000014000000DDC798CAE6D120C8D190D4CA20C7D220DDD1
+      E6D4000000000B000000DDC798CAE6D120DDD1E6D4000000000B00000081D1CF
+      C7CECA20E4DECFED000000000B000000CFD1EDC7DDCA20E4DECFED000000000A
+      0000008D982081D1CFC7CECAED000000000A0000008D9820CFD1EDC7DDCAED00
+      00000011000000C7E398C7E4C7CA20E4D1E320C7DDD2C7D10100000B000000CA
+      DBEDEDD12098C7D1C8D1000000000E000000CADBEDEDD120D1E3D220DAC8E6D1
+      000000000C00000081D4CAEDC8C7E42090EDD1ED0000000011000000C8C7D290
+      D1CFC7E4ED2081D4CAEDC8C7E4000000000E000000D9C7E5D120E4D1E320C7DD
+      D2C7D10000000007000000EDC7CFCFC7D4CA000000000A000000E3C7D4EDE420
+      CDD3C7C8000000000C000000E3CFEDD1EDCA20D3EDD3CAE30100000B000000E3
+      DAD1DDED2098C7D1C8D1000000000B000000D3D8E6CD20CFD3CAD1D3ED000000
+      000B000000E6D1E6CF20E620CED1E6CC000000000C00000090D2C7D1D420D1E6
+      D2C7E4E50000000007000000CAE4D9EDE3C7CA000000000F000000C8CFE598C7
+      D12FC8D3CAC7E498C7D10000000005000000D5E4CFE6DE0000000009000000C8
+      D1CFC7D4CA20E5C7000004000000000000000400000008000000000000000000
+      0000FFFFFFFF0100000010000000000000000000000001000000020000001000
+      00000000000000000000FFFFFFFF03000000100000000000000000000000FFFF
+      FFFF04000000100000000000000000000000FFFFFFFF05000000100000000000
+      000000000000FFFFFFFF23000000100000000000000000000000FFFFFFFF2400
+      0000100000000000000000000000FFFFFFFF2500000010000000000000000000
+      0000FFFFFFFF0600000004000000100000000000000000000000FFFFFFFF0700
+      0000100000000000000000000000FFFFFFFF0800000010000000000000000000
+      0000FFFFFFFF09000000100000000000000000000000FFFFFFFF0A0000001000
+      00000000000000000000FFFFFFFF0B000000100000000000000000000000FFFF
+      FFFF0C000000100000000000000000000000FFFFFFFF0D000000100000000000
+      000000000000FFFFFFFF0E000000100000000000000000000000FFFFFFFF0F00
+      0000100000000000000000000000FFFFFFFF1000000010000000000000000000
+      0000FFFFFFFF11000000100000000000000000000000FFFFFFFF120000001000
+      00000000000000000000FFFFFFFF13000000100000000000000000000000FFFF
+      FFFF14000000100000000000000000000000FFFFFFFF15000000100000000000
+      000000000000FFFFFFFF26000000100000000000000000000000FFFFFFFF1600
+      000004000000070000000000000000000000FFFFFFFF17000000100000000000
+      000000000000FFFFFFFF18000000100000000000000000000000FFFFFFFF1900
+      0000100000000000000000000000FFFFFFFF1A00000010000000000000000000
+      0000FFFFFFFF1B000000100000000000000000000000FFFFFFFF1C0000001000
+      00000000000000000000FFFFFFFF1D000000100000000000000000000000FFFF
+      FFFF1E00000004000000040000000000000000000000FFFFFFFF1F0000001000
+      00000000000000000000FFFFFFFF20000000100000000000000000000000FFFF
+      FFFF21000000100000000000000000000000FFFFFFFF22000000100000000000
+      000000000000FFFFFFFF}
+    object cxTreeListColumn1: TcxTreeListColumn
+      Caption.AlignHorz = taCenter
+      Caption.Text = #1606#1575#1605' '#1602#1587#1605#1578
+      DataBinding.ValueType = 'String'
+      Options.CellEndEllipsis = False
+      Options.Sizing = False
+      Options.Customizing = False
+      Options.Editing = False
+      Options.Focusing = False
+      Options.IncSearch = False
+      Options.Moving = False
+      Options.Sorting = False
+      Width = 164
+      Position.ColIndex = 0
+      Position.RowIndex = 0
+      Position.BandIndex = 0
+    end
+    object cxTreeListColumn2: TcxTreeListColumn
+      Caption.AlignHorz = taCenter
+      Caption.Text = #1583#1587#1578#1610#1575#1576#1610
+      DataBinding.ValueType = 'Boolean'
+      Options.CellEndEllipsis = False
+      Options.Sizing = False
+      Options.Customizing = False
+      Options.IncSearch = False
+      Options.Moving = False
+      Options.Sorting = False
+      Width = 70
+      Position.ColIndex = 1
+      Position.RowIndex = 0
+      Position.BandIndex = 0
+    end
+  end
+end

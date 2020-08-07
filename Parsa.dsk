@@ -1,0 +1,823 @@
+[Closed Files]
+File_0=SourceModule,'D:\Shop Managment\frmLogEnter_Exit.pas',0,1,1,1,1,0,0
+File_1=SourceModule,'D:\Shop Managment\frmAbout.pas',0,1,1,1,31,0,0
+File_2=SourceModule,'D:\Shop Managment\frmStorageLevel.pas',0,1,1,1,1,0,0
+File_3=SourceModule,'D:\Shop Managment\frmSettings.pas',0,1,1,37,14,0,0
+File_4=SourceModule,'D:\Shop Managment\frmDefineUser.pas',0,1,87,24,106,0,0
+
+[Modules]
+Module0=D:\Shop Managment\frmInvoiceSell.pas
+Module1=D:\Shop Managment\frmMain.pas
+Module2=D:\Shop Managment\frmDM.pas
+Module3=D:\Shop Managment\frmLogDailyReport.pas
+Module4=D:\Shop Managment\frmListDocNO.pas
+Module5=D:\Shop Managment\frmKalaTransfer.pas
+Module6=D:\Shop Managment\frmKala.pas
+Module7=D:\Shop Managment\frmDefineCoding.pas
+Module8=D:\Shop Managment\frmSandogh.pas
+Module9=D:\Shop Managment\frmDailySandogh.pas
+Module10=D:\Shop Managment\frmAcounts.pas
+Module11=D:\Shop Managment\frmAnbarGardany.pas
+Module12=D:\Shop Managment\frmCostSend.pas
+Module13=D:\Shop Managment\frmCostResive.pas
+Module14=D:\Shop Managment\frmInvoiceBackStorage.pas
+Module15=D:\Shop Managment\frmInvoiceBack.pas
+Module16=D:\Shop Managment\frmChangeUser.pas
+Module17=D:\Shop Managment\frmChangePass.pas
+Module18=D:\Shop Managment\frmBardasht.pas
+Module19=D:\Shop Managment\frmInvoiceBuy.pas
+Module20=D:\Shop Managment\frmQuchSend.pas
+Module21=D:\Shop Managment\frmQuchResive.pas
+Module22=D:\Shop Managment\frmPermission.pas
+Module23=D:\Shop Managment\frmBanks.pas
+Module24=D:\Shop Managment\frmTransferQuch.pas
+Module25=D:\Shop Managment\frmTransferCQ.pas
+Module26=D:\Shop Managment\frmStorage.pas
+Module27=D:\Shop Managment\frmShop.pas
+Module28=D:\Shop Managment\frmReportInvoice.pas
+Module29=D:\Shop Managment\frmReportDeb_Cred.pas
+Module30=D:\Shop Managment\frmLogin.pas
+Count=31
+EditWindowCount=1
+
+[D:\Shop Managment\frmInvoiceSell.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[D:\Shop Managment\frmMain.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmDM.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmLogDailyReport.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmListDocNO.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmKalaTransfer.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmKala.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmDefineCoding.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmSandogh.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmDailySandogh.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmAcounts.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmAnbarGardany.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmCostSend.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmCostResive.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmInvoiceBackStorage.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmInvoiceBack.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmChangeUser.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmChangePass.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmBardasht.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmInvoiceBuy.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmQuchSend.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmQuchResive.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmPermission.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmBanks.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmTransferQuch.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmTransferCQ.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmStorage.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmShop.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmReportInvoice.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmReportDeb_Cred.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmLogin.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Borland\Delphi7\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\Parsa.dpr]
+FormState=0
+FormOnTop=0
+
+[D:\Shop Managment\frmTMP.pas]
+FormState=0
+FormOnTop=0
+
+[EditWindow0]
+ViewCount=31
+CurrentView=13
+View0=0
+View1=1
+View2=2
+View3=3
+View4=4
+View5=5
+View6=6
+View7=7
+View8=8
+View9=9
+View10=10
+View11=11
+View12=12
+View13=13
+View14=14
+View15=15
+View16=16
+View17=17
+View18=18
+View19=19
+View20=20
+View21=21
+View22=22
+View23=23
+View24=24
+View25=25
+View26=26
+View27=27
+View28=28
+View29=29
+View30=30
+CodeExplorer=CodeExplorer@EditWindow0
+MessageView=MessageView@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=367
+Top=250
+Width=918
+Height=749
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=910
+ClientHeight=715
+LeftPanelSize=0
+LeftPanelClients=CodeExplorer@EditWindow0
+LeftPanelData=00000400010000000C000000436F64654578706C6F726572E1020000000000000197000000000000000100000000E102000000000000FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=0
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=00000400010000000B0000004D65737361676556696577A003000000000000024700000000000000010000000000000000000000000100000000A003000000000000FFFFFFFF
+
+[View0]
+Module=D:\Shop Managment\frmLogin.pas
+CursorX=9
+CursorY=179
+TopLine=158
+LeftCol=1
+
+[View1]
+Module=D:\Shop Managment\frmMain.pas
+CursorX=13
+CursorY=520
+TopLine=514
+LeftCol=1
+
+[View2]
+Module=D:\Shop Managment\frmReportDeb_Cred.pas
+CursorX=57
+CursorY=214
+TopLine=199
+LeftCol=1
+
+[View3]
+Module=D:\Shop Managment\frmReportInvoice.pas
+CursorX=27
+CursorY=217
+TopLine=184
+LeftCol=1
+
+[View4]
+Module=D:\Shop Managment\frmShop.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View5]
+Module=D:\Shop Managment\frmStorage.pas
+CursorX=20
+CursorY=21
+TopLine=208
+LeftCol=1
+
+[View6]
+Module=D:\Shop Managment\frmTransferCQ.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View7]
+Module=D:\Shop Managment\frmTransferQuch.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View8]
+Module=D:\Shop Managment\frmBanks.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View9]
+Module=D:\Shop Managment\frmPermission.pas
+CursorX=12
+CursorY=169
+TopLine=118
+LeftCol=1
+
+[View10]
+Module=D:\Shop Managment\frmQuchResive.pas
+CursorX=1
+CursorY=144
+TopLine=141
+LeftCol=1
+
+[View11]
+Module=D:\Shop Managment\frmQuchSend.pas
+CursorX=1
+CursorY=135
+TopLine=133
+LeftCol=1
+
+[View12]
+Module=D:\Shop Managment\frmInvoiceBuy.pas
+CursorX=1
+CursorY=387
+TopLine=385
+LeftCol=1
+
+[View13]
+Module=D:\Shop Managment\frmInvoiceSell.pas
+CursorX=69
+CursorY=761
+TopLine=749
+LeftCol=1
+
+[View14]
+Module=D:\Shop Managment\frmBardasht.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View15]
+Module=D:\Shop Managment\frmChangePass.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View16]
+Module=D:\Shop Managment\frmChangeUser.pas
+CursorX=1
+CursorY=80
+TopLine=56
+LeftCol=1
+
+[View17]
+Module=D:\Shop Managment\frmInvoiceBack.pas
+CursorX=56
+CursorY=404
+TopLine=387
+LeftCol=1
+
+[View18]
+Module=D:\Shop Managment\frmInvoiceBackStorage.pas
+CursorX=19
+CursorY=361
+TopLine=355
+LeftCol=1
+
+[View19]
+Module=D:\Shop Managment\frmCostResive.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View20]
+Module=D:\Shop Managment\frmCostSend.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View21]
+Module=D:\Shop Managment\frmAnbarGardany.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View22]
+Module=D:\Shop Managment\frmAcounts.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View23]
+Module=D:\Shop Managment\frmDailySandogh.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View24]
+Module=D:\Shop Managment\frmSandogh.pas
+CursorX=38
+CursorY=88
+TopLine=64
+LeftCol=1
+
+[View25]
+Module=D:\Shop Managment\frmDefineCoding.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View26]
+Module=D:\Shop Managment\frmKala.pas
+CursorX=32
+CursorY=808
+TopLine=790
+LeftCol=1
+
+[View27]
+Module=D:\Shop Managment\frmKalaTransfer.pas
+CursorX=4
+CursorY=150
+TopLine=141
+LeftCol=1
+
+[View28]
+Module=D:\Shop Managment\frmListDocNO.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View29]
+Module=D:\Shop Managment\frmLogDailyReport.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View30]
+Module=D:\Shop Managment\frmDM.pas
+CursorX=25
+CursorY=583
+TopLine=555
+LeftCol=1
+
+[Watches]
+Count=0
+
+[WatchWindow]
+WatchColumnWidth=100
+WatchShowColumnHeaders=1
+Create=1
+Visible=0
+State=0
+Left=92
+Top=726
+Width=789
+Height=157
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=781
+ClientHeight=131
+TBDockHeight=157
+LRDockWidth=789
+Dockable=1
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
+[Main Window]
+Create=1
+Visible=1
+State=2
+Left=0
+Top=0
+Width=1280
+Height=112
+MaxLeft=-4
+MaxTop=-4
+MaxWidth=1288
+MaxHeight=112
+ClientWidth=1280
+ClientHeight=78
+
+[ProjectManager]
+Create=1
+Visible=0
+State=0
+Left=369
+Top=372
+Width=438
+Height=305
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=430
+ClientHeight=279
+TBDockHeight=305
+LRDockWidth=438
+Dockable=1
+
+[Components]
+Left=240
+Top=237
+Width=183
+Height=235
+Create=1
+Visible=0
+State=0
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=175
+ClientHeight=209
+TBDockHeight=235
+LRDockWidth=183
+Dockable=1
+
+[CPUWindow]
+Create=1
+Visible=0
+State=0
+Left=96
+Top=114
+Width=959
+Height=635
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=951
+ClientHeight=601
+DumpPane=79
+DisassemblyPane=187
+RegisterPane=231
+FlagPane=64
+
+[AlignmentPalette]
+Create=1
+Visible=0
+State=0
+Left=200
+Top=114
+Width=156
+Height=84
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=1
+Top=105
+Width=234
+Height=863
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=226
+ClientHeight=837
+TBDockHeight=863
+LRDockWidth=208
+Dockable=1
+SplitPos=99
+ArrangeBy=Name
+SelectedItem=Caption
+ExpandedItems=BorderIcons,Brush,Buttons,CaptionButtons,DataBinding,Description,ExtraPane,Fonts,Footer,Header,LevelTabs,LookAndFeel,Options,PanelStyle,PanelStyle.ScrollLockKeyAppearance,Pen,PopupMenuItems,PreviewOptions,PreviewOptions.Buttons,Properties,Properties.Alignment,QuickAccessToolbar,ReportTitle,RootLevelOptions,Style,StyleFocused,TabSlants
+HiddenCategories=
+
+[BreakpointWindow]
+Create=1
+Visible=0
+State=0
+Left=143
+Top=285
+Width=737
+Height=197
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=729
+ClientHeight=171
+TBDockHeight=197
+LRDockWidth=737
+Dockable=1
+Column0Width=100
+Column1Width=75
+Column2Width=200
+Column3Width=200
+Column4Width=75
+Column5Width=75
+
+[CallStackWindow]
+Create=1
+Visible=0
+State=0
+Left=493
+Top=431
+Width=294
+Height=161
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=286
+ClientHeight=135
+TBDockHeight=161
+LRDockWidth=294
+Dockable=1
+
+[ThreadStatusWindow]
+Create=1
+Visible=0
+State=0
+Left=488
+Top=524
+Width=629
+Height=248
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=621
+ClientHeight=222
+TBDockHeight=248
+LRDockWidth=629
+Dockable=1
+Column0Width=178
+Column1Width=123
+Column2Width=142
+Column3Width=308
+
+[ObjectTree]
+Create=1
+Visible=0
+State=0
+Left=4
+Top=104
+Width=227
+Height=166
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=219
+ClientHeight=140
+TBDockHeight=352
+LRDockWidth=190
+Dockable=1
+
+[DebugLogView]
+Create=1
+Visible=0
+State=0
+Left=431
+Top=366
+Width=417
+Height=291
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=409
+ClientHeight=265
+TBDockHeight=291
+LRDockWidth=417
+Dockable=1
+
+[LocalVarsWindow]
+Create=1
+Visible=0
+State=0
+Left=273
+Top=197
+Width=421
+Height=189
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=413
+ClientHeight=163
+TBDockHeight=189
+LRDockWidth=421
+Dockable=1
+
+[ToDo List]
+Create=1
+Visible=0
+State=0
+Left=405
+Top=387
+Width=470
+Height=250
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=462
+ClientHeight=224
+TBDockHeight=250
+LRDockWidth=470
+Dockable=1
+Column0Width=200
+Column1Width=30
+Column2Width=100
+Column3Width=70
+Column4Width=70
+SortOrder=4
+ShowHints=1
+ShowChecked=1
+
+[FPUWindow]
+Create=1
+Visible=0
+State=0
+Left=271
+Top=248
+Width=728
+Height=477
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=720
+ClientHeight=443
+RegisterPane=147
+FlagPane=72
+
+[ModuleWindow]
+Create=1
+Visible=0
+State=0
+Left=481
+Top=422
+Width=638
+Height=355
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=630
+ClientHeight=329
+TBDockHeight=355
+LRDockWidth=638
+Dockable=1
+Column0Width=125
+Column1Width=100
+Column2Width=155
+EntryPointPane=225
+CompUnitPane=104
+
+[MessageHintFrm]
+Create=1
+Visible=0
+State=0
+Left=282
+Top=198
+Width=383
+Height=192
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=375
+ClientHeight=166
+TBDockHeight=195
+LRDockWidth=383
+Dockable=1
+
+[CodeExplorer@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=0
+Top=12
+Width=151
+Height=725
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=151
+ClientHeight=725
+TBDockHeight=305
+LRDockWidth=151
+Dockable=1
+
+[MessageView@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=12
+Top=0
+Width=916
+Height=71
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=916
+ClientHeight=71
+TBDockHeight=71
+LRDockWidth=140
+Dockable=1
+
+[DockHosts]
+DockHostCount=0
+

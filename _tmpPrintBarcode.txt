@@ -1,0 +1,8 @@
+CREATE TABLE [_tmpPrintBarcode] (
+	[code] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1256_CI_AS NULL ,
+	[name] [nvarchar] (100) COLLATE SQL_Latin1_General_CP1256_CI_AS NULL ,
+	[saleprice] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1256_CI_AS NULL 
+) ON [PRIMARY]
+GO
+
+
